@@ -1,8 +1,10 @@
 # Day 2
 
-I will use [Scrimba](https://scrimba.com/) please check out the platform if you want to learn programing interactively
+I will use [Scrimba](https://scrimba.com/) please check out the platform if you want to learn programing interactively.
 
-Biggest reason  of using scrimba is it make playing with code easy
+Biggest reason  of using scrimba is it make playing with code easy.
+
+Day 2 code on Scrimba [Code](https://scrimba.com/scrim/canvzECW)
 
 ### The Plan
 

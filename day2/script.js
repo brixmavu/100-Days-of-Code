@@ -6,3 +6,5 @@ function prev() {
     document.getElementById('registration').style.display = "none";
     document.getElementById('login').style.display = "block";
 }
+
+document.getElementById('year').innerHTML = new Date.getFullYear();
