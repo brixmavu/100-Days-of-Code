@@ -20,7 +20,7 @@ The idea is to toggle between login interface and registration interface
 
 By default we see login interface when click event is clicked we see registration interface
 
-Just changing css propeties via js in a way
+Just changing CSS propeties via JavaScript
 >Currently in style.css
 >```
 >#registration{
@@ -35,7 +35,7 @@ Just changing css propeties via js in a way
 >    display: none
 >}
 >
->>#registration{
+>#registration{
 >    display: block
 >}
 >```
@@ -59,8 +59,8 @@ In index.html we setup for the click event on the event on a new user
 
 1. Login form
 
-`<a href="#" onclick="next()" >You don't have an account yet? Register Here</a>`
+<a href="#" onclick="next()" >You don't have an account yet? Register Here</a>`
 
 2. Registration form
 
-> `<a href="#" onclick="prev()" >You have an account already? Login Here</a>`
+<a href="#" onclick="prev()" >You have an account already? Login Here</a>
