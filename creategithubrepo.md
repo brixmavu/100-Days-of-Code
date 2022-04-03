@@ -18,7 +18,7 @@ Go into you terminal add the following commands
 >
 > git add .
 >
->Note: the fullstop `git add .` denotes everthing in the folder must be added in the repo
+>Note: the fullstop `git add .` denotes everthing in the folder must be added into the repo
 >
 > git commit -m "100 days of code starts now"
 >

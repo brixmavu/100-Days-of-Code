@@ -1,0 +1,14 @@
+{
+  "name": "day3",
+  "version": "1.0.0",
+  "description": "100 Days of Code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brix",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}

@@ -8,6 +8,6 @@ These are not tutorials, it just my comeback in writting code and showing off :j
 
 > Simplicity is the ultimate sophistication. ― Leonardo da Vinci
 
-All the code will be available on [github](https://github.com)
+All the code will be available on [github](https://github.com/brixmavu/100-Days-of-Code)
 
 
