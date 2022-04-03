@@ -1,8 +1,11 @@
-var express = require('express')
-var path = require('path')
-var serveStatic = require('serve-static')
+const express = require('express')
+const path = require('path')
 
-var app = express()
+const app = express()
+const port = 3000
 
-app.use(serveStatic(path.join(__dirname, 'public')))
-app.listen(3000)
+app.use('/', express.static(path.join(__dirname, 'public')))
+
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`)
+})
