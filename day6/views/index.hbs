@@ -1,0 +1,43 @@
+<section>
+  <div class="wrapper">
+    <header class="page-header">{{title}}</header>
+    <main class="page-body">
+      <div class="center">
+        <form id="login" action="/users/login" method="post">
+          <h1>Login</h1>
+          <p>
+            <label>Username</label><br>
+            <input type="text" name="username">
+          </p>
+          <p>
+            <label>Password</label><br>
+            <input type="password" name="password">
+          </p>
+          <p><button>Login</button></p>
+          <a href="#" onclick="next()">You don't have an account yet? Register Here</a>
+          <br>
+          <a href="#">Forgot Password</a>
+        </form>
+
+
+        <form id="registration" action="/users/register" method="post">
+          <h1>Registration</h1>
+          <p>
+            <label>Username</label><br>
+            <input type="text" name="username" required>
+          </p>
+          <p>
+            <label>Password</label><br>
+            <input type="password" name="password" required>
+          </p>
+
+          <p>
+            <button>Sign up</button>
+          </p>
+          <a href="#" onclick="prev()">You have an account already? Login Here</a>
+        </form>
+      </div>
+    </main>
+    <footer class="page-footer">&#169; <span id="year"></span></footer>
+  </div>
+</section>
