@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Day 2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<section>
+  <div class="wrapper">
+    <header class="page-header">100 Days Of Code</header>
+    <main class="page-body">
+      <div class="center">
+        <form id="login" action="/login" method="post">
+          <h1>Login</h1>
+          <p>
+            <label>Username</label><br>
+            <input type="text" name="username">
+          </p>
+          <p>
+            <label>Password</label><br>
+            <input type="password" name="password" required>
+          </p>
+          <!-- <p><button>Login</button></p> -->
+          <a href="home.html"></a>
+          <a href="#" onclick="next()">You don't have an account yet? Register Here</a>
+          <br>
+          <a href="#">Forgot Password</a>
+        </form>
+
+
+        <form id="registration" action="/signup" method="post">
+          <h1>Registration</h1>
+          <p>
+            <label>First name</label><br>
+            <input type="text" name="first_name" required>
+          </p>
+          <p>
+            <label>Phone number</label><br>
+            <input type="tel" name="phone">
+          </p>
+          <p>
+            <label>Password</label><br>
+            <input type="password" name="password" required>
+          </p>
+
+          <p>
+            <button>Sign up</button>
+          </p>
+          <a href="#" onclick="prev()">You have an account already? Login Here</a>
+        </form>
+      </div>
+    </main>
+    <footer class="page-footer">&#169; <span id="year"></span></footer>
+  </div>
+</section>
+<script src="./script.js"></script>
+</body>
+
+</html>
